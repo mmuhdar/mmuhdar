@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 ## Tentang Saya
 Saya seorang pengembang perangkat lunak dengan pengalaman dalam pengembangan web baik itu frontend ataupun backend. Saya suka bekerja dengan teknologi terbaru.
 
-![Profil Saya](https://your-image-url.com/profile.jpg)
+![Profil Saya](https://avatars.githubusercontent.com/u/45293775?v=4)
 
 ## Keterampilan
 - **Pemrograman**: TypeScript, JavaScript, Php, React, NextJS, NestJS, ExpressJS, Laravel, Prisma
@@ -30,5 +30,5 @@ Saya seorang pengembang perangkat lunak dengan pengalaman dalam pengembangan web
 ## Kontak
 - Email: mmuhdar@gmail.com
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mmuhdar&show_icons=true&hide_title=true&count_private=true)
+<!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mmuhdar&show_icons=true&hide_title=true&count_private=true) -->
 
