@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 ## Tentang Saya
 Saya seorang pengembang perangkat lunak dengan pengalaman dalam pengembangan web baik itu frontend ataupun backend. Saya suka bekerja dengan teknologi terbaru.
 
-![Profil Saya](https://avatars.githubusercontent.com/u/45293775?v=4)
+<!-- ![Profil Saya](https://avatars.githubusercontent.com/u/45293775?v=4) -->
 
 ## Keterampilan
 - **Pemrograman**: TypeScript, JavaScript, Php, React, NextJS, NestJS, ExpressJS, Laravel, Prisma
