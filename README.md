@@ -39,22 +39,22 @@ Kode sistem berikut tidak dibuka untuk umum karena dipakai di lingkungan rumah s
 
 ## Tech stack
 
-- <img src="https://skillicons.dev/icons?i=ts" width="20" height="20" alt="" align="center"> TypeScript
-- <img src="https://skillicons.dev/icons?i=js" width="20" height="20" alt="" align="center"> JavaScript
-- <img src="https://skillicons.dev/icons?i=php" width="20" height="20" alt="" align="center"> PHP
-- <img src="https://skillicons.dev/icons?i=nodejs" width="20" height="20" alt="" align="center"> Node.js
-- <img src="https://skillicons.dev/icons?i=nextjs" width="20" height="20" alt="" align="center"> Next.js
-- <img src="https://skillicons.dev/icons?i=react" width="20" height="20" alt="" align="center"> React
-- <img src="https://skillicons.dev/icons?i=nestjs" width="20" height="20" alt="" align="center"> NestJS
-- <img src="https://skillicons.dev/icons?i=express" width="20" height="20" alt="" align="center"> Express, Hono
-- <img src="https://skillicons.dev/icons?i=laravel" width="20" height="20" alt="" align="center"> Laravel + Filament
-- <img src="https://skillicons.dev/icons?i=tailwind" width="20" height="20" alt="" align="center"> Tailwind CSS
-- <img src="https://skillicons.dev/icons?i=postgres" width="20" height="20" alt="" align="center"> PostgreSQL
-- <img src="https://skillicons.dev/icons?i=mysql" width="20" height="20" alt="" align="center"> MySQL / MariaDB
-- <img src="https://skillicons.dev/icons?i=prisma" width="20" height="20" alt="" align="center"> Prisma, Drizzle
-- <img src="https://skillicons.dev/icons?i=docker" width="20" height="20" alt="" align="center"> Docker
-- <img src="https://skillicons.dev/icons?i=linux" width="20" height="20" alt="" align="center"> Linux
-- <img src="https://skillicons.dev/icons?i=git" width="20" height="20" alt="" align="center"> Git
+- <img src="https://skillicons.dev/icons?i=ts" width="20" height="20" alt="" align="top"> TypeScript
+- <img src="https://skillicons.dev/icons?i=js" width="20" height="20" alt="" align="top"> JavaScript
+- <img src="https://skillicons.dev/icons?i=php" width="20" height="20" alt="" align="top"> PHP
+- <img src="https://skillicons.dev/icons?i=nodejs" width="20" height="20" alt="" align="top"> Node.js
+- <img src="https://skillicons.dev/icons?i=nextjs" width="20" height="20" alt="" align="top"> Next.js
+- <img src="https://skillicons.dev/icons?i=react" width="20" height="20" alt="" align="top"> React
+- <img src="https://skillicons.dev/icons?i=nestjs" width="20" height="20" alt="" align="top"> NestJS
+- <img src="https://skillicons.dev/icons?i=express" width="20" height="20" alt="" align="top"> Express, Hono
+- <img src="https://skillicons.dev/icons?i=laravel" width="20" height="20" alt="" align="top"> Laravel + Filament
+- <img src="https://skillicons.dev/icons?i=tailwind" width="20" height="20" alt="" align="top"> Tailwind CSS
+- <img src="https://skillicons.dev/icons?i=postgres" width="20" height="20" alt="" align="top"> PostgreSQL
+- <img src="https://skillicons.dev/icons?i=mysql" width="20" height="20" alt="" align="top"> MySQL / MariaDB
+- <img src="https://skillicons.dev/icons?i=prisma" width="20" height="20" alt="" align="top"> Prisma, Drizzle
+- <img src="https://skillicons.dev/icons?i=docker" width="20" height="20" alt="" align="top"> Docker
+- <img src="https://skillicons.dev/icons?i=linux" width="20" height="20" alt="" align="top"> Linux
+- <img src="https://skillicons.dev/icons?i=git" width="20" height="20" alt="" align="top"> Git
 
 Di sisi integrasi kesehatan: HL7 v2, komunikasi port serial dengan alat laboratorium, dan integrasi dengan SIMRS. Terbiasa memasang aplikasi di server rumah sakit sendiri (on-premise), lengkap dengan backup dan pemulihannya.
 
