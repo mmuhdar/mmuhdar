@@ -37,13 +37,26 @@ Kode sistem berikut tidak dibuka untuk umum karena dipakai di lingkungan rumah s
 | Dokumen pendamping SIMRS | Formulir rekam medis yang belum ada di SIMRS: diisi seperti kertas, ditandatangani di signature pad, lalu otomatis menjadi PDF; data pasien dibaca dari SIMRS Khanza | Next.js, Prisma, MariaDB, Playwright |
 | Aplikasi pendukung | Kepegawaian, presensi, keuangan dan aset, informasi tempat tidur, sistem klinik | PHP/Laravel, JavaScript |
 
-## Keterampilan
+## Tech stack
 
-- **Bahasa:** TypeScript, JavaScript, PHP, SQL
-- **Web:** Next.js, React, NestJS, Express, Hono, Laravel + Filament, Tailwind CSS, shadcn/ui
-- **Database:** PostgreSQL, MySQL/MariaDB, Drizzle, Prisma
-- **Integrasi kesehatan:** HL7 v2, komunikasi port serial dengan alat laboratorium, integrasi dengan SIMRS
-- **Operasional:** Docker Compose, Linux, backup dan pemulihan di server on-premise, Git
+- <img src="https://skillicons.dev/icons?i=ts" width="20" height="20" alt=""> TypeScript
+- <img src="https://skillicons.dev/icons?i=js" width="20" height="20" alt=""> JavaScript
+- <img src="https://skillicons.dev/icons?i=php" width="20" height="20" alt=""> PHP
+- <img src="https://skillicons.dev/icons?i=nodejs" width="20" height="20" alt=""> Node.js
+- <img src="https://skillicons.dev/icons?i=nextjs" width="20" height="20" alt=""> Next.js
+- <img src="https://skillicons.dev/icons?i=react" width="20" height="20" alt=""> React
+- <img src="https://skillicons.dev/icons?i=nestjs" width="20" height="20" alt=""> NestJS
+- <img src="https://skillicons.dev/icons?i=express" width="20" height="20" alt=""> Express, Hono
+- <img src="https://skillicons.dev/icons?i=laravel" width="20" height="20" alt=""> Laravel + Filament
+- <img src="https://skillicons.dev/icons?i=tailwind" width="20" height="20" alt=""> Tailwind CSS
+- <img src="https://skillicons.dev/icons?i=postgres" width="20" height="20" alt=""> PostgreSQL
+- <img src="https://skillicons.dev/icons?i=mysql" width="20" height="20" alt=""> MySQL / MariaDB
+- <img src="https://skillicons.dev/icons?i=prisma" width="20" height="20" alt=""> Prisma, Drizzle
+- <img src="https://skillicons.dev/icons?i=docker" width="20" height="20" alt=""> Docker
+- <img src="https://skillicons.dev/icons?i=linux" width="20" height="20" alt=""> Linux
+- <img src="https://skillicons.dev/icons?i=git" width="20" height="20" alt=""> Git
+
+Di sisi integrasi kesehatan: HL7 v2, komunikasi port serial dengan alat laboratorium, dan integrasi dengan SIMRS. Terbiasa memasang aplikasi di server rumah sakit sendiri (on-premise), lengkap dengan backup dan pemulihannya.
 
 ## Proyek lain
 
