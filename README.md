@@ -1,34 +1,56 @@
-<!--
-**mmuhdar/mmuhdar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Halo, saya Muhammad Muhdar
 
-Here are some ideas to get you started:
+Saya pengembang sistem informasi kesehatan. Sejak 2024 saya membangun aplikasi yang dipakai sehari-hari di rumah sakit:
+- mutu dan keselamatan pasien;
+- laboratorium yang terhubung langsung ke alat analyzer;
+- radiologi;
+- formulir rekam medis yang melengkapi SIMRS.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-# Halo, saya Muhammad Muhdar 👋
+Saya mengutamakan aplikasi yang mudah dipakai petugas di ruangan, mengikuti regulasi Kemenkes, dan tetap berjalan di server rumah sakit yang sederhana, tanpa bergantung pada internet.
 
-## Tentang Saya
-Saya seorang pengembang perangkat lunak dengan pengalaman dalam pengembangan web baik itu frontend ataupun backend. Saya suka bekerja dengan teknologi terbaru.
+## Proyek open source
 
-<!-- ![Profil Saya](https://avatars.githubusercontent.com/u/45293775?v=4) -->
+### [MutuRS](https://github.com/mmuhdar/mutu-rs)
+
+Aplikasi indikator mutu rumah sakit, dari pengisian data ruangan sampai laporan ke Direktur, Dewan Pengawas, dan SIMAR Kemenkes. Isinya:
+- 13 INM sesuai PMK 30/2022;
+- verifikasi oleh Kepala Unit;
+- Capaian ΣN/ΣD dengan Kelengkapan;
+- Analisis, Tindak Lanjut, dan PDSA;
+- validasi data PMKP 5;
+- Laporan Triwulan dan Rekap SIMAR;
+- insiden keselamatan pasien (PMK 11/2017);
+- register risiko.
+
+Dibangun dengan Next.js 16, PostgreSQL, dan Docker Compose, berlisensi AGPL-3.0.
+
+[![Dashboard MutuRS](https://raw.githubusercontent.com/mmuhdar/mutu-rs/main/docs/gambar/dashboard.png)](https://github.com/mmuhdar/mutu-rs)
+
+## Sistem rumah sakit yang pernah saya bangun
+
+Kode sistem berikut tidak dibuka untuk umum karena dipakai di lingkungan rumah sakit.
+
+| Sistem | Yang dikerjakan | Teknologi |
+|---|---|---|
+| Sistem Informasi Laboratorium (LIS) | Order dari SIMRS atau petugas, label barcode sampel, konektor analyzer (HL7 v2, port serial), verifikasi hasil dengan nilai rujukan dan nilai kritis, kontrol kualitas Westgard dan grafik Levey-Jennings, laporan PDF, hasil kembali ke SIMRS | TypeScript monorepo, sebelumnya Laravel + Filament |
+| Sistem Informasi Radiologi (RIS) | Papan kerja real-time, alur order sampai laporan yang disahkan dokter radiologi, cetak PDF berkop instansi, riwayat dan perbandingan hasil, peran dengan hak akses yang bisa diatur | Next.js 16, Drizzle, Tailwind CSS |
+| Dokumen pendamping SIMRS | Formulir rekam medis yang belum ada di SIMRS: diisi seperti kertas, ditandatangani di signature pad, lalu otomatis menjadi PDF; data pasien dibaca dari SIMRS Khanza | Next.js, Prisma, MariaDB, Playwright |
+| Aplikasi pendukung | Kepegawaian, presensi, keuangan dan aset, informasi tempat tidur, sistem klinik | PHP/Laravel, JavaScript |
 
 ## Keterampilan
-- **Pemrograman**: TypeScript, JavaScript, Php, React, NextJS, NestJS, ExpressJS, Laravel, Prisma
-- **Alat dan Teknologi**: Git, Docker
 
-## Proyek Terbaru
-1. [Go Laundry](https://github.com/mmuhdar/go-laundry-api)
-2. [Express Typescript Boilerplate](https://github.com/mmuhdar/express-ts-boilerplate)
+- **Bahasa:** TypeScript, JavaScript, PHP, SQL
+- **Web:** Next.js, React, NestJS, Express, Hono, Laravel + Filament, Tailwind CSS, shadcn/ui
+- **Database:** PostgreSQL, MySQL/MariaDB, Drizzle, Prisma
+- **Integrasi kesehatan:** HL7 v2, komunikasi port serial dengan alat laboratorium, integrasi dengan SIMRS
+- **Operasional:** Docker Compose, Linux, backup dan pemulihan di server on-premise, Git
+
+## Proyek lain
+
+- [express-ts-boilerplate](https://github.com/mmuhdar/express-ts-boilerplate): boilerplate Express + TypeScript.
+- [go-laundry-api](https://github.com/mmuhdar/go-laundry-api): API aplikasi laundry dengan NestJS dan Prisma.
+- [tevim-vscode](https://github.com/mmuhdar/tevim-vscode): konfigurasi Neovim (TeVim) dengan key binding ala VS Code.
 
 ## Kontak
-- Email: mmuhdar@gmail.com
 
-<!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mmuhdar&show_icons=true&hide_title=true&count_private=true) -->
-
+Email: mmuhdar@gmail.com. Untuk MutuRS, silakan buka [issue](https://github.com/mmuhdar/mutu-rs/issues) di repositorinya.
