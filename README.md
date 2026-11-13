@@ -1,4 +1,4 @@
-# Halo, saya Muhammad Muhdar
+# Hi, I'm Muhammad Muhdar
 
 I build software for hospitals. Since 2024, I've been making the apps hospital staff use every day:
 - quality and patient safety
@@ -8,34 +8,34 @@ I build software for hospitals. Since 2024, I've been making the apps hospital s
 
 I like keeping things practical: easy for ward staff to pick up, in line with Indonesia's Ministry of Health rules, and happy to run on a modest hospital server with no internet needed.
 
-## Proyek open source
+## Open source
 
 ### [MutuRS](https://github.com/mmuhdar/mutu-rs)
 
-Aplikasi indikator mutu rumah sakit, dari pengisian data ruangan sampai laporan ke Direktur, Dewan Pengawas, dan SIMAR Kemenkes. Isinya:
-- 13 INM sesuai PMK 30/2022;
-- verifikasi oleh Kepala Unit;
-- Capaian ΣN/ΣD dengan Kelengkapan;
-- Analisis, Tindak Lanjut, dan PDSA;
-- validasi data PMKP 5;
-- Laporan Triwulan dan Rekap SIMAR;
-- insiden keselamatan pasien (PMK 11/2017);
-- register risiko.
+A quality indicator app for Indonesian hospitals. It covers the whole loop, from ward staff entering monthly data to reports for the director, the supervisory board, and the Ministry's SIMAR system:
+- the 13 national quality indicators (INM, PMK 30/2022)
+- verification by unit heads
+- hospital-wide results calculated as ΣN/ΣD, with completeness tracking
+- analysis, follow-ups, and PDSA cycles
+- data validation (PMKP 5)
+- quarterly reports and SIMAR recap
+- patient safety incidents (PMK 11/2017)
+- risk register
 
-Dibangun dengan Next.js 16, PostgreSQL, dan Docker Compose, berlisensi AGPL-3.0.
+Built with Next.js 16, PostgreSQL, and Docker Compose. Licensed under AGPL-3.0.
 
-[![Dashboard MutuRS](https://raw.githubusercontent.com/mmuhdar/mutu-rs/main/docs/gambar/dashboard.png)](https://github.com/mmuhdar/mutu-rs)
+[![MutuRS dashboard](https://raw.githubusercontent.com/mmuhdar/mutu-rs/main/docs/gambar/dashboard.png)](https://github.com/mmuhdar/mutu-rs)
 
-## Sistem rumah sakit yang pernah saya bangun
+## Hospital systems I've built
 
-Kode sistem berikut tidak dibuka untuk umum karena dipakai di lingkungan rumah sakit.
+These ones are private, since they run inside a hospital.
 
-| Sistem | Yang dikerjakan | Teknologi |
+| System | What it does | Stack |
 |---|---|---|
-| Sistem Informasi Laboratorium (LIS) | Order dari SIMRS atau petugas, label barcode sampel, konektor analyzer (HL7 v2, port serial), verifikasi hasil dengan nilai rujukan dan nilai kritis, kontrol kualitas Westgard dan grafik Levey-Jennings, laporan PDF, hasil kembali ke SIMRS | TypeScript monorepo, sebelumnya Laravel + Filament |
-| Sistem Informasi Radiologi (RIS) | Papan kerja real-time, alur order sampai laporan yang disahkan dokter radiologi, cetak PDF berkop instansi, riwayat dan perbandingan hasil, peran dengan hak akses yang bisa diatur | Next.js 16, Drizzle, Tailwind CSS |
-| Dokumen pendamping SIMRS | Formulir rekam medis yang belum ada di SIMRS: diisi seperti kertas, ditandatangani di signature pad, lalu otomatis menjadi PDF; data pasien dibaca dari SIMRS Khanza | Next.js, Prisma, MariaDB, Playwright |
-| Aplikasi pendukung | Kepegawaian, presensi, keuangan dan aset, informasi tempat tidur, sistem klinik | PHP/Laravel, JavaScript |
+| Laboratory Information System (LIS) | Takes orders from SIMRS or lab staff, prints barcode labels for samples, pulls results from analyzers (HL7 v2, serial port), checks them against reference ranges and critical values, runs QC with Westgard rules and Levey-Jennings charts, prints PDF reports, and sends results back to SIMRS | TypeScript monorepo, rebuilt from Laravel + Filament |
+| Radiology Information System (RIS) | Real-time worklist, the full flow from order to a report signed off by the radiologist, PDF printouts with the hospital letterhead, patient history and side-by-side comparison, configurable roles and permissions | Next.js 16, Drizzle, Tailwind CSS |
+| SIMRS companion forms | Medical record forms that SIMRS doesn't have yet: filled in like paper, signed on a signature pad, and turned into a PDF automatically; patient data is read from SIMRS Khanza | Next.js, Prisma, MariaDB, Playwright |
+| Supporting apps | HR, attendance, finance and assets, bed availability, clinic system | PHP/Laravel, JavaScript |
 
 ## Tech stack
 
@@ -56,14 +56,14 @@ Kode sistem berikut tidak dibuka untuk umum karena dipakai di lingkungan rumah s
 - <img src="https://skillicons.dev/icons?i=linux" width="20" height="20" alt="" align="top"> Linux
 - <img src="https://skillicons.dev/icons?i=git" width="20" height="20" alt="" align="top"> Git
 
-Di sisi integrasi kesehatan: HL7 v2, komunikasi port serial dengan alat laboratorium, dan integrasi dengan SIMRS. Terbiasa memasang aplikasi di server rumah sakit sendiri (on-premise), lengkap dengan backup dan pemulihannya.
+On the healthcare side, I work with HL7 v2, serial connections to lab instruments, and SIMRS integrations. I'm also used to running apps on the hospital's own servers, backups and restores included.
 
-## Proyek lain
+## Other projects
 
-- [express-ts-boilerplate](https://github.com/mmuhdar/express-ts-boilerplate): boilerplate Express + TypeScript.
-- [go-laundry-api](https://github.com/mmuhdar/go-laundry-api): API aplikasi laundry dengan NestJS dan Prisma.
-- [tevim-vscode](https://github.com/mmuhdar/tevim-vscode): konfigurasi Neovim (TeVim) dengan key binding ala VS Code.
+- [express-ts-boilerplate](https://github.com/mmuhdar/express-ts-boilerplate): an Express + TypeScript starter.
+- [go-laundry-api](https://github.com/mmuhdar/go-laundry-api): a laundry app API built with NestJS and Prisma.
+- [tevim-vscode](https://github.com/mmuhdar/tevim-vscode): my Neovim (TeVim) setup with VS Code-style key bindings.
 
-## Kontak
+## Get in touch
 
-Email: mmuhdar@gmail.com. Untuk MutuRS, silakan buka [issue](https://github.com/mmuhdar/mutu-rs/issues) di repositorinya.
+Email me at mmuhdar@gmail.com. For MutuRS, feel free to open an [issue](https://github.com/mmuhdar/mutu-rs/issues).
