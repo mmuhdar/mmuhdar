@@ -1,12 +1,12 @@
 # Halo, saya Muhammad Muhdar
 
-Saya pengembang sistem informasi kesehatan. Sejak 2024 saya membangun aplikasi yang dipakai sehari-hari di rumah sakit:
-- mutu dan keselamatan pasien;
-- laboratorium yang terhubung langsung ke alat analyzer;
-- radiologi;
-- formulir rekam medis yang melengkapi SIMRS.
+I build software for hospitals. Since 2024, I've been making the apps hospital staff use every day:
+- quality and patient safety
+- lab systems that talk straight to the analyzers
+- radiology
+- medical record forms that fill the gaps in the hospital's main system (SIMRS)
 
-Saya mengutamakan aplikasi yang mudah dipakai petugas di ruangan, mengikuti regulasi Kemenkes, dan tetap berjalan di server rumah sakit yang sederhana, tanpa bergantung pada internet.
+I like keeping things practical: easy for ward staff to pick up, in line with Indonesia's Ministry of Health rules, and happy to run on a modest hospital server with no internet needed.
 
 ## Proyek open source
 
