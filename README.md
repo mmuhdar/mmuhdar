@@ -26,6 +26,21 @@ Dibangun dengan Next.js 16, PostgreSQL, dan Docker Compose, berlisensi AGPL-3.0.
 
 [![Dashboard MutuRS](https://raw.githubusercontent.com/mmuhdar/mutu-rs/main/docs/gambar/dashboard.png)](https://github.com/mmuhdar/mutu-rs)
 
+### [laris](https://github.com/mmuhdar/laris)
+
+Aplikasi kasir (POS) desktop untuk toko kecil dan UMKM: warung, toko kelontong, dan minimarket kecil. Berjalan offline penuh di satu komputer, semua data ada di satu file, dan struk dicetak di printer thermal apa saja. Isinya:
+- kasir dengan scan barcode, tombol cepat, harga grosir, dan satuan dus atau pak;
+- bayar tunai, QRIS, transfer, kartu, atau kasbon;
+- stok masuk dari pemasok, hutang pemasok, stok opname, dan mutasi stok;
+- pelanggan dengan kasbon, batas kasbon, dan poin;
+- retur sebagian, shift kasir, kas masuk/keluar, dan pengeluaran;
+- laporan omzet, laba kotor dan bersih, jam ramai, dan nilai stok;
+- pajak opsional, label harga dengan barcode, dan PIN pemilik.
+
+Dibangun dengan Tauri 2, Rust + SQLite, dan SvelteKit, berlisensi GPL-3.0.
+
+[![Layar Kasir laris](https://raw.githubusercontent.com/mmuhdar/laris/main/docs/screenshots/kasir.png)](https://github.com/mmuhdar/laris)
+
 ## Sistem rumah sakit yang pernah saya bangun
 
 Kode sistem berikut tidak dibuka untuk umum karena dipakai di lingkungan rumah sakit.
@@ -42,15 +57,19 @@ Kode sistem berikut tidak dibuka untuk umum karena dipakai di lingkungan rumah s
 - <img src="https://skillicons.dev/icons?i=ts" width="20" height="20" alt="" align="top"> TypeScript
 - <img src="https://skillicons.dev/icons?i=js" width="20" height="20" alt="" align="top"> JavaScript
 - <img src="https://skillicons.dev/icons?i=php" width="20" height="20" alt="" align="top"> PHP
+- <img src="https://skillicons.dev/icons?i=rust" width="20" height="20" alt="" align="top"> Rust
 - <img src="https://skillicons.dev/icons?i=nodejs" width="20" height="20" alt="" align="top"> Node.js
 - <img src="https://skillicons.dev/icons?i=nextjs" width="20" height="20" alt="" align="top"> Next.js
 - <img src="https://skillicons.dev/icons?i=react" width="20" height="20" alt="" align="top"> React
+- <img src="https://skillicons.dev/icons?i=svelte" width="20" height="20" alt="" align="top"> Svelte, SvelteKit
+- <img src="https://skillicons.dev/icons?i=tauri" width="20" height="20" alt="" align="top"> Tauri (aplikasi desktop)
 - <img src="https://skillicons.dev/icons?i=nestjs" width="20" height="20" alt="" align="top"> NestJS
 - <img src="https://skillicons.dev/icons?i=express" width="20" height="20" alt="" align="top"> Express, Hono
 - <img src="https://skillicons.dev/icons?i=laravel" width="20" height="20" alt="" align="top"> Laravel + Filament
 - <img src="https://skillicons.dev/icons?i=tailwind" width="20" height="20" alt="" align="top"> Tailwind CSS
 - <img src="https://skillicons.dev/icons?i=postgres" width="20" height="20" alt="" align="top"> PostgreSQL
 - <img src="https://skillicons.dev/icons?i=mysql" width="20" height="20" alt="" align="top"> MySQL / MariaDB
+- <img src="https://skillicons.dev/icons?i=sqlite" width="20" height="20" alt="" align="top"> SQLite
 - <img src="https://skillicons.dev/icons?i=prisma" width="20" height="20" alt="" align="top"> Prisma, Drizzle
 - <img src="https://skillicons.dev/icons?i=docker" width="20" height="20" alt="" align="top"> Docker
 - <img src="https://skillicons.dev/icons?i=linux" width="20" height="20" alt="" align="top"> Linux
@@ -66,4 +85,4 @@ Di sisi integrasi kesehatan: HL7 v2, komunikasi port serial dengan alat laborato
 
 ## Kontak
 
-Email: mmuhdar@gmail.com. Untuk MutuRS, silakan buka [issue](https://github.com/mmuhdar/mutu-rs/issues) di repositorinya.
+Email: mmuhdar@gmail.com. Untuk MutuRS atau laris, silakan buka issue di repositorinya masing-masing: [MutuRS](https://github.com/mmuhdar/mutu-rs/issues), [laris](https://github.com/mmuhdar/laris/issues).
