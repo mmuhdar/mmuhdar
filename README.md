@@ -39,11 +39,11 @@ Saya full stack developer yang menulis kode sejak 2019, dan saat ini seorang AI 
 
 ### 🏆 Proyek open source
 
-| Proyek | Deskripsi | Tech stack | Bintang |
-| :--- | :--- | :--- | :--- |
-| [**utd-rs**](https://github.com/mmuhdar/utd-rs) | Aplikasi bank darah rumah sakit: stok darah, uji silang, transfusi, verifikasi samping tempat tidur, Formulir 3 Permenkes 91/2015, integrasi SIMRS & SATUSEHAT | Rust, SvelteKit, PostgreSQL | ![](https://img.shields.io/github/stars/mmuhdar/utd-rs?style=flat-square&label=%E2%AD%90) |
-| [**MutuRS**](https://github.com/mmuhdar/mutu-rs) | Indikator mutu RS: 13 INM PMK 30/2022, verifikasi, PDSA, Laporan Triwulan, Rekap SIMAR, insiden keselamatan pasien, register risiko | Next.js, PostgreSQL, Docker | ![](https://img.shields.io/github/stars/mmuhdar/mutu-rs?style=flat-square&label=%E2%AD%90) |
-| [**laris**](https://github.com/mmuhdar/laris) | Aplikasi kasir (POS) desktop untuk toko kecil dan UMKM, offline penuh dalam satu file data | Tauri, Rust, SvelteKit, SQLite | ![](https://img.shields.io/github/stars/mmuhdar/laris?style=flat-square&label=%E2%AD%90) |
+| Proyek | Deskripsi | Tech stack |
+| :--- | :--- | :--- |
+| [**utd-rs**](https://github.com/mmuhdar/utd-rs) | Aplikasi bank darah rumah sakit: stok darah, uji silang, transfusi, verifikasi samping tempat tidur, Formulir 3 Permenkes 91/2015, integrasi SIMRS & SATUSEHAT | Rust, SvelteKit, PostgreSQL |
+| [**MutuRS**](https://github.com/mmuhdar/mutu-rs) | Indikator mutu RS: 13 INM PMK 30/2022, verifikasi, PDSA, Laporan Triwulan, Rekap SIMAR, insiden keselamatan pasien, register risiko | Next.js, PostgreSQL, Docker |
+| [**laris**](https://github.com/mmuhdar/laris) | Aplikasi kasir (POS) desktop untuk toko kecil dan UMKM, offline penuh dalam satu file data | Tauri, Rust, SvelteKit, SQLite |
 
 <p align="center">
   <a href="https://github.com/mmuhdar/utd-rs"><img src="https://raw.githubusercontent.com/mmuhdar/utd-rs/main/docs/tangkapan-layar/02-beranda.png" width="32%" alt="utd-rs" /></a>
