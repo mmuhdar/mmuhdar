@@ -1,5 +1,5 @@
 <h1 align="center">Hai 👋, saya Muhammad Muhdar</h1>
-<h3 align="center">Pengembang Sistem Informasi Rumah Sakit dari Tolitoli, Indonesia 🇮🇩</h3>
+<h3 align="center">Full Stack Developer · AI Enthusiast · Sistem Informasi Rumah Sakit — Tolitoli, Indonesia 🇮🇩</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=mmuhdar&label=Profile%20views&color=0e75b6&style=flat-square" alt="mmuhdar" />
@@ -9,14 +9,31 @@
 
 ### 🚀 Tentang saya
 
-Sejak 2024 saya membangun aplikasi yang dipakai petugas rumah sakit setiap hari: bank darah, mutu dan keselamatan pasien, laboratorium yang terhubung langsung ke alat analyzer, radiologi, dan formulir rekam medis pelengkap SIMRS. Prinsip saya: mudah dipelajari petugas ruangan, sesuai regulasi Kemenkes, dan berjalan lancar di server rumah sakit yang sederhana tanpa perlu internet.
+Saya full stack developer yang menulis kode sejak 2019, dan saat ini seorang AI enthusiast. Sejak 2024 saya fokus membangun aplikasi yang dipakai petugas rumah sakit setiap hari: laboratorium yang terhubung langsung ke alat analyzer, bank darah, mutu dan keselamatan pasien, radiologi, dan formulir rekam medis pelengkap SIMRS. Prinsip saya: mudah dipelajari petugas ruangan, sesuai regulasi Kemenkes, dan berjalan lancar di server rumah sakit yang sederhana tanpa perlu internet.
 
+- 🌟 **Proyek unggulan:** Sistem Informasi Laboratorium (LIS) yang dipakai di rumah sakit sejak Maret 2026.
 - 🔭 **Sedang dikerjakan:** [utd-rs](https://github.com/mmuhdar/utd-rs), aplikasi bank darah rumah sakit (BDRS/UTD-RS) open source.
+- 🤖 **Saat ini:** AI enthusiast, memakai AI dalam proses pengembangan perangkat lunak sehari-hari.
+- 💼 **Pengalaman:** pemrograman sejak 2019 sebagai full stack developer, dari backend, frontend, sampai pemasangan di server.
 - 🏥 **Fokus:** sistem informasi kesehatan, yaitu mutu RS, bank darah, laboratorium (LIS), radiologi, dan integrasi SIMRS.
-- 🛠️ **Proyek unggulan:** [MutuRS](https://github.com/mmuhdar/mutu-rs), aplikasi indikator mutu RS sesuai PMK 30/2022.
+- 🛠️ **Proyek open source:** [MutuRS](https://github.com/mmuhdar/mutu-rs) (indikator mutu RS) dan [laris](https://github.com/mmuhdar/laris) (kasir UMKM).
 - 🔌 **Integrasi:** HL7 v2, komunikasi port serial dengan alat laboratorium, SATUSEHAT, dan SIMRS Khanza.
 - 💬 **Tanya saya tentang:** SIMRS, LIS, alur pelayanan rumah sakit, dan pemasangan aplikasi on-premise.
 - 📫 **Kontak:** [mmuhdar@gmail.com](mailto:mmuhdar@gmail.com)
+
+---
+
+### 🌟 Proyek unggulan: Sistem Informasi Laboratorium (LIS)
+
+**Dipakai di rumah sakit sejak Maret 2026.** LIS ini menangani alur laboratorium dari order sampai hasil kembali ke SIMRS, dan terhubung langsung ke alat analyzer. Kodenya tidak dibuka untuk umum karena dipakai di lingkungan rumah sakit.
+
+- 🧾 Order dari SIMRS atau petugas lab, lalu label barcode sampel.
+- 🔌 Konektor analyzer lewat HL7 v2 dan port serial, sehingga hasil masuk otomatis tanpa diketik ulang.
+- ✅ Verifikasi hasil dengan nilai rujukan dan peringatan nilai kritis.
+- 📈 Kontrol kualitas dengan aturan Westgard dan grafik Levey-Jennings.
+- 📄 Laporan hasil PDF berkop instansi, lalu hasil dikirim kembali ke SIMRS.
+
+**Teknologi:** TypeScript monorepo (sebelumnya Laravel + Filament), PostgreSQL, Docker, berjalan on-premise di server rumah sakit.
 
 ---
 
@@ -36,13 +53,12 @@ Sejak 2024 saya membangun aplikasi yang dipakai petugas rumah sakit setiap hari:
 
 ---
 
-### 🏥 Sistem rumah sakit yang pernah saya bangun
+### 🏥 Sistem rumah sakit lain yang pernah saya bangun
 
 Kode sistem berikut tidak dibuka untuk umum karena dipakai di lingkungan rumah sakit.
 
 | Sistem | Yang dikerjakan | Teknologi |
 | :--- | :--- | :--- |
-| **Sistem Informasi Laboratorium (LIS)** | Order dari SIMRS atau petugas, label barcode sampel, konektor analyzer (HL7 v2, port serial), verifikasi hasil dengan nilai rujukan dan nilai kritis, kontrol kualitas Westgard dan grafik Levey-Jennings, laporan PDF, hasil kembali ke SIMRS | TypeScript monorepo, sebelumnya Laravel + Filament |
 | **Sistem Informasi Radiologi (RIS)** | Papan kerja real-time, alur order sampai laporan yang disahkan dokter radiologi, cetak PDF berkop instansi, riwayat dan perbandingan hasil, hak akses per peran | Next.js 16, Drizzle, Tailwind CSS |
 | **Dokumen pendamping SIMRS** | Formulir rekam medis yang belum ada di SIMRS: diisi seperti kertas, ditandatangani di signature pad, lalu otomatis menjadi PDF; data pasien dibaca dari SIMRS Khanza | Next.js, Prisma, MariaDB, Playwright |
 | **Aplikasi pendukung** | Kepegawaian, presensi, keuangan dan aset, informasi tempat tidur, sistem klinik | PHP/Laravel, JavaScript |
@@ -81,7 +97,6 @@ Di sisi kesehatan: **HL7 v2**, **FHIR/SATUSEHAT**, **ISBT 128**, komunikasi port
 
 ### 📊 Statistik GitHub
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=mmuhdar&show_icons=true&theme=tokyonight&count_private=true" />
   <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs?username=mmuhdar&show_icons=true&theme=tokyonight&layout=compact" />
 </p>
 
